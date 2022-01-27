@@ -6,4 +6,5 @@ module.exports = withMDX({
     // `true` will transform `/about` to `/about/index.html`
     trailingSlash: true,
     pageExtensions: ['js', 'jsx', 'tsx', 'mdx'],
+    basePath: '/csslayout'
 });
